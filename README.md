@@ -40,7 +40,7 @@ The header file works on **disallowing** features. So anyting not mentioned is a
 
 Look in `cpm.hpp` for a comprehensive and up-to-date list of what isn't allowed, but primarily it's:
 
-`class`, `private`, `protected`, `public`, `virtual`, `this`, `try`, `catch`, `throw`
+`class`, `private`, `protected`, `public`, `virtual`, `this`, `try`, `catch`, `throw`, `override`
 
 This isn't bullet proof, you can probably still work around this and end up making the code C++-ified. But, it makes it harder and reminds you to keep your code more data-oriented.
 
